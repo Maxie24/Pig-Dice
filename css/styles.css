@@ -1,5 +1,5 @@
-.body{
-  background-image: url(https://i.pinimg.com/564x/1c/94/5a/1c945a7d1ce75f36aeb19685bc7c06d4.jpg)
+body{
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 }
 
 .jumbotron{
@@ -16,7 +16,7 @@ background-image: linear-gradient(to top, #feada6 0%, #f5e6ef 100%);
 }
 
 @keyframes example {
-  from {background-color: crimson;}
+  from {background-color: moccasin;}
   to { background-color: cadetblue;}
 }
 
