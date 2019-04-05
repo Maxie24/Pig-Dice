@@ -1,0 +1,30 @@
+.body{
+  background-image: url(https://i.pinimg.com/564x/1c/94/5a/1c945a7d1ce75f36aeb19685bc7c06d4.jpg)
+}
+
+.jumbotron{
+ background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
+  padding: 120px;
+}
+
+#img1{
+  float: right;
+}
+
+.jumbotron:hover{
+background-image: linear-gradient(to top, #feada6 0%, #f5e6ef 100%);
+}
+
+@keyframes example {
+  from {background-color: crimson;}
+  to { background-color: cadetblue;}
+}
+
+#play {
+  width: 200px;
+  height: 50px;
+  background-color: aquamarine;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
