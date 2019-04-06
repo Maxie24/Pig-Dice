@@ -13,11 +13,7 @@ Check it out ->
 * create a branch gh-pages and push the directory once more using gh-pages as the branch.
 * Go to github click on environment and click to view the website.
 * Or rather you can click on the link to clone the project into your folder directory. :
-### BDD
-In order for the program to run well and to give the correct output, the code had to meet certain criteria
-1. The user has to select one choice from the list provided.  
-2. For the answer to be correct the value of the label has to be five.
-Below is a table to describe this:
+
 
 ## BDD 
 | Behavior                          |  Input Example |  Output  Example|
