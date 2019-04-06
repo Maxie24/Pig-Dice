@@ -43,3 +43,7 @@ background-image: linear-gradient(to top, #feada6 0%, #f5e6ef 100%);
 .well {
   background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
 }
+
+.copyright {
+  padding-left: 90pt;
+}
