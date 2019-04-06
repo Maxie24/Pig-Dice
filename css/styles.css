@@ -1,8 +1,9 @@
-body{
-  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+body {
+  background-attachment: fixed;
+  background-image: url(https://i.pinimg.com/564x/24/5d/dc/245ddc312fad3a73ef339dad61534063.jpg)
 }
 
-.jumbotron{
+.jumbotron{ 
  background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
   padding: 120px;
 }
@@ -11,13 +12,13 @@ body{
   float: right;
 }
 
-.jumbotron:hover{
+.jumbotron:hover {
 background-image: linear-gradient(to top, #feada6 0%, #f5e6ef 100%);
 }
 
 @keyframes example {
   from {background-color: moccasin;}
-  to { background-color: cadetblue;}
+  to { background-color: rgb(84, 177, 180);}
 }
 
 #play {
@@ -25,6 +26,20 @@ background-image: linear-gradient(to top, #feada6 0%, #f5e6ef 100%);
   height: 50px;
   background-color: aquamarine;
   animation-name: example;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-iteration-count: infinite;
+}
+
+.column {
+  background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+  font-family: 'Monoton', cursive;
+}
+
+.column2 {
+  background-image: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
+  font-family: 'Monoton', cursive;
+}
+
+.well {
+  background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
 }
