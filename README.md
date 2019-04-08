@@ -12,7 +12,7 @@ Check it out ->
 * create a remote repository on your computer using terminal and push your work to github.
 * create a branch gh-pages and push the directory once more using gh-pages as the branch.
 * Go to github click on environment and click to view the website.
-* Or rather you can click on the link to clone the project into your folder directory. :
+* Or rather you can click on the link to clone the project into your folder directory. :https://github.com/Maxie24/Pig-Dice.git
 
 
 ## BDD 
@@ -34,7 +34,7 @@ There are no major known Bugs but is still under perfection.
 * Git used as a version control tool
 
 ## Live Link
-
+* Visit https://maxie24.github.io/Pig-Dice/ to project
 
 ## Support and contact details
 If any issues arise or you need clarifications on anything related, feel free to reach me at;- Cell-0707949131
