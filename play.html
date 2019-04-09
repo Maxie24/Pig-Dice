@@ -11,60 +11,59 @@
   <script src="js/jquery-3.3.1.js"></script>
   <script src="js/scripts.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe" rel="stylesheet">
+
 
   <title>Play Pig Dice</title>
   <link rel="shortcut icon" href="https://i.pinimg.com/564x/1c/94/5a/1c945a7d1ce75f36aeb19685bc7c06d4.jpg">
 </head>
+
 <body>
 
   <div class="container">
     <div class="jumbotron">
       <h1>P L A Y - P I G - D I C E </h1>
-       <img src="https://i.pinimg.com/564x/db/a5/ad/dba5adc5a237dcc085f000a166901250.jpg" alt="dice fire" height="100px" width="200px">
-       <img src="https://i.pinimg.com/564x/db/a5/ad/dba5adc5a237dcc085f000a166901250.jpg" alt="dice fire" height="100px" width="200px">
-       <img src="https://i.pinimg.com/564x/db/a5/ad/dba5adc5a237dcc085f000a166901250.jpg" alt="dice fire" height="100px" width="200px">
-       <img src="https://i.pinimg.com/564x/db/a5/ad/dba5adc5a237dcc085f000a166901250.jpg" alt="dice fire" height="100px" width="200px">
-       <img src="https://i.pinimg.com/564x/db/a5/ad/dba5adc5a237dcc085f000a166901250.jpg" alt="dice fire" height="100px" width="200px">
-    <div class="well">
-      <h1>INSTRUCTIONS</h1>    
 
-      <ol>
+      <div class="well">
+        <h1>INSTRUCTIONS</h1>
 
-        <li>Player 1 and player 2 rolls sides 2 - 6, the dice answer is added to their total and continue rolling.</li>
-        <li>when player 1 or player 2 rolls a 1, their total score reverts to 0 and it becomes the next player's turn.
-        </li>
-        <li>When the player chooses to "pass", their total is added to their total score, and it becomes the next
-          player's turn.</li>
-        <li>The player who first scores 100 wins the game</li>
+        <ol>
 
-      </ol>
+          <li>Player 1 and player 2 rolls sides 2 - 6, the dice answer is added to their total and continue rolling.
+          </li>
+          <li>when player 1 or player 2 rolls a 1, their total score reverts to 0 and it becomes the next player's turn.
+          </li>
+          <li>When the player chooses to "pass", their total is added to their total score, and it becomes the next
+            player's turn.</li>
+          <li>The player who first scores 100 wins the game</li>
+
+        </ol>
       </div>
-      <img src="https://i.pinimg.com/564x/db/a5/ad/dba5adc5a237dcc085f000a166901250.jpg" alt="dice fire" height="100px" width="200px">
-       <img src="https://i.pinimg.com/564x/db/a5/ad/dba5adc5a237dcc085f000a166901250.jpg" alt="dice fire" height="100px" width="200px">
-       <img src="https://i.pinimg.com/564x/db/a5/ad/dba5adc5a237dcc085f000a166901250.jpg" alt="dice fire" height="100px" width="200px">
-       <img src="https://i.pinimg.com/564x/db/a5/ad/dba5adc5a237dcc085f000a166901250.jpg" alt="dice fire" height="100px" width="200px">
-       <img src="https://i.pinimg.com/564x/db/a5/ad/dba5adc5a237dcc085f000a166901250.jpg" alt="dice fire" height="100px" width="200px">
-    </div>
+    
     <div class="row">
 
+      <div class="element">
+      <div id="results1"></div>
+      <div id="correct1"></div>
+      </div>
+      
       <div class="col-md-4">
         <div class="column">
-          <img src="https://i.pinimg.com/564x/a3/45/3e/a3453e994d1cbb503d50cf3d8d2183e6.jpg" alt="" height="128px" width="128px">
+          <img src="https://i.pinimg.com/564x/a3/45/3e/a3453e994d1cbb503d50cf3d8d2183e6.jpg" alt="" height="128px"
+            width="128px">
           <h1 class="p1">Player one</h1><br><br>
-
-
 
           <p class="D">Dice Roll: <span id="diceroll1"></span></p>
           <p class="U">Turn Score: <span id="turnscore1"></span></p>
           <p class="O">Total Score: <span id="totalscore1"></span></p>
           <button id="play1" class="btn">ROLL</button>
-          <button id="play1-pause" class="btn">HOLD</button>
-          <p id="ouch"></p>
+          <button id="play1-pause" class="btn">HOLD</button><br>
+          
 
         </div>
       </div>
-
-      <div class="col-md-4">
+      
+     <div class="col-md-4">
         <div class="column2">
           <img src="https://i.pinimg.com/564x/10/c8/ac/10c8ac86bb0b114296c7138545ddd754.jpg" alt="">
           <h1 class="p2">Player two</h1><br><br>
@@ -74,13 +73,14 @@
           <p class="U">Turn Score: <span id="turnscore2"></span></p>
           <p class="O">Total Score: <span id="totalscore2"></span></p>
           <button id="play2" class="btn">ROLL</button>
-          <button id="play2-pause" class="btn">HOLD</button>
-
-
+          <button id="play2-pause" class="btn">HOLD</button><br>
+          <
         </div>
       </div>
 
     </div>
+
+      
 
 
 
