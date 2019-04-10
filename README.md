@@ -3,7 +3,7 @@
 #### By **Max Maina**
 ## Description
 Players throw a dice and scores as many points as the total shown on the dice providing the dice doesn’t roll to a 1. The player may continue rolling and accumulating points (but risking not to roll a 1) as this will end his/her turn,maning that they lose all points they accumulated that turn, and they pass the dice to the next player. The game goes on where the dice passes from player to player until a winner is determined. The first player to score 100 or more wins the game.
-Check it out -> 
+Check it out ->
 
 ## Setup/Installation Requirements  
 * Open "pig-dice" directory on terminal ```mkdir pig-dice```
@@ -14,14 +14,14 @@ Check it out ->
 * Or rather you can click on the link to clone the project into your folder directory. :https://github.com/Maxie24/Pig-Dice.git ```git clone https://github.com/Maxie24/Pig-Dice.git```
 
 
-## BDD 
+## BDD
 | Behavior                          |  Input Example |  Output  Example|
 |----------                         |:-------------: |------:      
 |  Player 1 clicks Roll |  Click roll    |  Number is generated.  |
 |If Player rolls any number other than 1, roll is added to round total   | Roll = 3     |  Round Total =3    |
-|If Player1 rolls 1, no score is added and it is players 2 turn to roll  |  Roll = 1    |  Round Total = 0, Score = 0,  alerts *pass to the next player*    |
-|If Player1 clicks Hold, round total is added to his score and it's Player2 Turn | Click Hold     |  Round Total = 5, Score = 8, alerts *pass to the next player*    |
-| When a player's total score is 100 or more points, the game is over and winner alert shows  |  Player 1 score = 105	    |  *WOO-HOO!! You Win*    |
+|If Player1 rolls 1, no score is added and it is players 2 turn to roll  |  Roll = 1    |  Round Total = 0, Score = 0,  alerts *No score for you, you rolled a one. Next player*    |
+|If Player1 clicks Hold, round total is added to his score and it's Player2 Turn | Click Hold     |  Round Total = 5, Score = 8, alerts *Score counted, pass to the next player.*    |
+| When a player's total score is 100 or more points, the game is over and winner alert shows  |  Player 1 score = 105	    |  *You win. Play again.*    |
 ## Known Bugs
 There are no major known Bugs but is still under perfection.
 ## Technologies Used
