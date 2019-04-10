@@ -3,32 +3,35 @@ var player1 = player1;
 var player2 = player2;
 
 var rollDice = function () {
-  return Math.floor(6 * Math.random()) + 1;
+  return Math.floor(Math.random() * 6) + 1;
 }
 
+//constructor
 function player() {
   this.roll = 0;
   this.turnScore = 0;
   this.totalScore = 0;
 };
 
-
-// roll
+//prototype
+//when player clicks play
 player.prototype.rollOne = function () {
   if (this.roll === 1) {
     this.turnScore = 0;
-    alert("O u c h!! no score, you rolled a 1!");
+    document.getElementById("correct1").innerHTML = "No score for you, you rolled a one. Next player"
+    
   } else {
     this.turnScore += this.roll;
   }
 }
-// pause
+// when player clicks hold
 player.prototype.pause = function () {
   this.totalScore += this.turnScore;
   this.turnScore = 0;
-  alert("Pass To The Next Player ");
+  document.getElementById("correct1").innerHTML = "Score counted, pass to the next player."
+  
   if (this.totalScore >= 100) {
-    alert("Woo-Hoo! You Win");
+  document.getElementById("correct1").innerHTML = "You win. Play again."
   }
 }
 
