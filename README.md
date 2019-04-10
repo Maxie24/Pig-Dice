@@ -6,13 +6,12 @@ Players throw a dice and scores as many points as the total shown on the dice pr
 Check it out -> 
 
 ## Setup/Installation Requirements  
-* Open "pig-dice" directory on terminal
+* Open "pig-dice" directory on terminal ```mkdir pig-dice```
 * initialize the project with git  ```git init```
-* Go to github.com and create a new repository
-* create a remote repository on your computer using terminal and push your work to github.
-* create a branch gh-pages and push the directory once more using gh-pages as the branch.
-* Go to github click on environment and click to view the website.
-* Or rather you can click on the link to clone the project into your folder directory. :https://github.com/Maxie24/Pig-Dice.git
+* Go to github.com and create a new repository.
+* Create a remote repository on your computer using terminal and push your work to github.
+* create a branch gh-pages and push the directory once more using gh-pages as the branch ```git branch gh-pages```
+* Or rather you can click on the link to clone the project into your folder directory. :https://github.com/Maxie24/Pig-Dice.git ```git clone https://github.com/Maxie24/Pig-Dice.git```
 
 
 ## BDD 
